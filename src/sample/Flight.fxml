@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Flight_controller">
+   <children>
+      <WebView fx:id="webview" layoutX="5.0" layoutY="285.0" prefHeight="694.0" prefWidth="1794.0" />
+      <ImageView fx:id="img_passenger" fitHeight="127.0" fitWidth="96.0" layoutX="49.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" scaleX="1.2" scaleY="1.7" />
+      <Label layoutX="237.0" layoutY="45.0" text="Name: " textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label layoutX="238.0" layoutY="93.0" text="Nationality:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="582.0" layoutY="88.0" text="Gate:" textFill="#000000b3">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="584.0" layoutY="128.0" text="From:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="583.0" layoutY="46.0" text="Flight ID:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_name" layoutX="313.0" layoutY="46.0" text="name">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label fx:id="lbl_nationality" layoutX="363.0" layoutY="93.0" text="ad">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label fx:id="lbl_flight_id" layoutX="687.0" layoutY="46.0" text="Label">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label fx:id="lbl_gate" layoutX="650.0" layoutY="86.0" text="Label">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label fx:id="lbl_from" layoutX="652.0" layoutY="130.0" text="Label">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label layoutX="583.0" layoutY="171.0" text="To:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_to" layoutX="632.0" layoutY="172.0" text="Label">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label layoutX="238.0" layoutY="132.0" text="Date:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_date" layoutX="298.0" layoutY="133.0" text="ad">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label layoutX="238.0" layoutY="171.0" text="Boarding Time:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_board_time" layoutX="402.0" layoutY="171.0" text="ad">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font></Label>
+      <Label layoutX="580.0" layoutY="212.0" text="Has Arrived:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_has" layoutX="716.0" layoutY="212.0" text="YES">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_seat1" layoutX="238.0" layoutY="206.0" text="Seat:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_seat" layoutX="300.0" layoutY="206.0" text="17C">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_class1" layoutX="238.0" layoutY="238.0" text="Class:" textFill="#000000b2">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_class" layoutX="304.0" layoutY="238.0" text="17C">
+         <font>
+            <Font name="Arial Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

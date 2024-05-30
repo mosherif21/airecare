@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<AnchorPane fx:id="main_pn" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Camera">
+   <children>
+      <ImageView fx:id="test" fitHeight="259.0" fitWidth="255.0" layoutX="833.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/icon.png" />
+         </image>
+      </ImageView>
+      <MediaView fx:id="video" fitHeight="800.0" fitWidth="1200.0" layoutX="26.0" layoutY="286.0">
+         <effect>
+            <DropShadow />
+         </effect></MediaView>
+      <Pane fx:id="pane" layoutX="1245.0" layoutY="398.0" maxHeight="534.0" maxWidth="668.0" prefHeight="475.0" prefWidth="626.0" style="-fx-border-color: #1BA4C8;">
+         <effect>
+            <DropShadow />
+         </effect></Pane>
+   </children>
+</AnchorPane>

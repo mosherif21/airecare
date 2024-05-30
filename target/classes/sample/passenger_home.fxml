@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.passenger_home_controller">
+   <children>
+      <Pane fx:id="pn_form_change" layoutX="257.0" layoutY="282.0">
+         <children>
+            <Pane fx:id="pn_main" prefWidth="1503.0">
+               <children>
+                  <GridPane fx:id="grid_home" layoutY="-66.0" prefHeight="767.0" prefWidth="1503.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Pane layoutX="305.0" layoutY="10.0" prefHeight="203.0" prefWidth="244.0" GridPane.rowIndex="1">
+                           <children>
+                              <Button fx:id="btn_checkin" alignment="CENTER" layoutY="14.0" mnemonicParsing="false" prefHeight="268.0" prefWidth="386.0" style="-fx-background-radius: 70;">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="109.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/bagg_claim.png" />
+                                       </image>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="21.0" layoutY="203.0" text="Check-In counter" textFill="#000000ae">
+                                 <font>
+                                    <Font name="Arial Bold" size="42.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="280.0" prefHeight="203.0" prefWidth="244.0">
+                           <children>
+                              <Button fx:id="btn_flight" alignment="CENTER" layoutY="20.0" mnemonicParsing="false" prefHeight="268.0" prefWidth="386.0" style="-fx-background-radius: 70;">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="109.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/airplane.png" />
+                                       </image>
+                                                   <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="128.0" layoutY="215.0" text="Flight" textFill="#000000ae">
+                                 <font>
+                                    <Font name="Arial Bold" size="42.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="10.0" layoutY="10.0" prefHeight="403.0" prefWidth="458.0" GridPane.columnIndex="1">
+                           <children>
+                              <Button fx:id="btn_customs" alignment="CENTER" layoutY="14.0" mnemonicParsing="false" prefHeight="268.0" prefWidth="386.0" style="-fx-background-radius: 70;">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="109.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/customss.png" />
+                                       </image>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="109.0" layoutY="207.0" text="Customs" textFill="#000000ae">
+                                 <font>
+                                    <Font name="Arial Bold" size="42.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="305.0" layoutY="10.0" prefHeight="203.0" prefWidth="244.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <children>
+                              <Button fx:id="btn_claim" alignment="CENTER" layoutY="14.0" mnemonicParsing="false" prefHeight="268.0" prefWidth="386.0" style="-fx-background-radius: 70;">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="131.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/baggage_reclaimmmmm.png" />
+                                       </image>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="45.0" layoutY="190.0" text="Baggage claim" textFill="#000000ae">
+                                 <font>
+                                    <Font name="Arial Bold" size="42.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="305.0" layoutY="280.0" prefHeight="203.0" prefWidth="244.0" GridPane.columnIndex="2">
+                           <children>
+                              <Button fx:id="btn_toilet" alignment="CENTER" layoutY="14.0" mnemonicParsing="false" prefHeight="268.0" prefWidth="386.0" style="-fx-background-radius: 70;">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="109.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/toilet.png" />
+                                       </image>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="137.0" layoutY="214.0" text="Toilet" textFill="#000000ae">
+                                 <font>
+                                    <Font name="Arial Bold" size="42.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Label>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="599.0" layoutY="10.0" prefHeight="203.0" prefWidth="244.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <children>
+                              <Button fx:id="btn_food" alignment="CENTER" layoutY="14.0" mnemonicParsing="false" prefHeight="268.0" prefWidth="386.0" style="-fx-background-radius: 70;">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="109.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../icons/restaurant.png" />
+                                       </image>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Label layoutX="142.0" layoutY="209.0" text="Food" textFill="#000000ae">
+                                 <font>
+                                    <Font name="Arial Bold" size="42.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Label>
+                           </children>
+                        </Pane>
+                     </children>
+                  </GridPane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="btn_exit" alignment="CENTER" layoutX="1768.0" layoutY="942.0" mnemonicParsing="false" prefHeight="92.0" prefWidth="107.0" style="-fx-background-radius: 30;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="98.0" fitWidth="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/exittttttttt.png" />
+               </image>
+               <cursor>
+                           <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="-7.0" prefHeight="85.0" prefWidth="1928.0" style="-fx-background-color: #E6E6E6; -fx-border-color: #191919;">
+         <children>
+            <Button fx:id="btn_back" alignment="CENTER" layoutX="29.0" layoutY="15.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="51.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="39.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/back_test_2.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="80.0" fitWidth="88.0" layoutX="920.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/icon_logo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="clock" layoutX="1698.0" layoutY="14.0" prefHeight="64.0" prefWidth="218.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="48.0" fitWidth="157.0" layoutX="126.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/name.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>
